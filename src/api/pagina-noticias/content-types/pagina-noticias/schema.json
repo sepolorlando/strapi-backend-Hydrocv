@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_noticias",
+  "info": {
+    "singularName": "pagina-noticias",
+    "pluralName": "paginas-noticias",
+    "displayName": "Página Notícias",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.hero"
+    }
+  }
+}
+

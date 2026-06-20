@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_caracteristicas",
+  "info": {
+    "name": "Caracteristica",
+    "icon": "star",
+    "displayName": "Característica",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icone": {
+      "type": "enumeration",
+      "enum": [
+        "sprout",
+        "leaf",
+        "apple",
+        "check",
+        "users",
+        "award",
+        "headphones",
+        "shield",
+        "wrench",
+        "credit-card",
+        "settings",
+        "message",
+        "tag",
+        "help",
+        "flask",
+        "heart"
+      ]
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

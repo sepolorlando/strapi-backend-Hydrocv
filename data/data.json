@@ -2,9 +2,9 @@
   "global": {
     "siteName": "Strapi Blog",
     "defaultSeo": {
-      "metaTitle": "Page",
-      "metaDescription": "A blog made with Strapi",
-      "shareImage": null
+      "tituloMeta": "Page",
+      "descricaoMeta": "A blog made with Strapi",
+      "imagemOg": null
     },
     "siteDescription": "A Blog made with Strapi",
     "favicon": null

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_info_contactos",
+  "info": {
+    "name": "InfoContacto",
+    "icon": "phone",
+    "displayName": "Contacto",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tipo": {
+      "type": "enumeration",
+      "enum": ["morada", "email", "telefone"]
+    },
+    "rotulo": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "text"
+    }
+  }
+}

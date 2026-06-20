@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_link_menus",
+  "info": {
+    "name": "LinkMenu",
+    "icon": "link",
+    "displayName": "Link de Menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rotulo": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

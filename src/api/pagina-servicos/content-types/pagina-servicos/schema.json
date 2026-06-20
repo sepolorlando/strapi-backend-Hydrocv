@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_servicos",
+  "info": {
+    "singularName": "pagina-servicos",
+    "pluralName": "paginas-servicos",
+    "displayName": "Página Serviços",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.hero"
+    },
+    "introducao": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.introducao"
+    },
+    "tituloGrelha": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.banner"
+    },
+    "seccaoPorque": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.seccao-porque"
+    }
+  }
+}
+

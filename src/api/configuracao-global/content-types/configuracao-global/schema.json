@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "configuracao_globals",
+  "info": {
+    "singularName": "configuracao-global",
+    "pluralName": "configuracao-globals",
+    "displayName": "Configuração Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomeSite": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "emailTopo": {
+      "type": "string"
+    },
+    "telefoneTopo": {
+      "type": "string"
+    },
+    "redesSociais": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.rede-social"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "servicosRodape": {
+      "type": "json"
+    },
+    "linksEmpresa": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.link-menu"
+    },
+    "tituloNewsletter": {
+      "type": "string"
+    },
+    "descricaoNewsletter": {
+      "type": "text"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "linksLegais": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.link-menu"
+    }
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_faq_items",
+  "info": {
+    "name": "FaqItem",
+    "icon": "question",
+    "displayName": "Item FAQ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pergunta": {
+      "type": "string"
+    },
+    "resposta": {
+      "type": "richtext"
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categoria-faq.categoria-faq",
+      "required": false
+    }
+  }
+}

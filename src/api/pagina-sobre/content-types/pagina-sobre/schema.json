@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_sobres",
+  "info": {
+    "singularName": "pagina-sobre",
+    "pluralName": "pagina-sobres",
+    "displayName": "Página Sobre",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.hero"
+    },
+    "introducao": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.introducao"
+    },
+    "pilares": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.cartao-servico"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.banner"
+    },
+    "sobrancelhaEquipa": {
+      "type": "string"
+    },
+    "tituloEquipa": {
+      "type": "string"
+    }
+  }
+}
+

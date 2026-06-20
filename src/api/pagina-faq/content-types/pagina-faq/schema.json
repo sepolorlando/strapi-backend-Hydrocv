@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_faqs",
+  "info": {
+    "singularName": "pagina-faq",
+    "pluralName": "pagina-faqs",
+    "displayName": "Página FAQ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.hero"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.banner"
+    },
+    "sobrancelhaPopulares": {
+      "type": "string"
+    },
+    "tituloPopulares": {
+      "type": "string"
+    }
+  }
+}
+

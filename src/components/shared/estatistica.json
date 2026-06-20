@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_estatisticas",
+  "info": {
+    "name": "Estatistica",
+    "icon": "chartBubble",
+    "displayName": "Estatística",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "valor": {
+      "type": "string"
+    },
+    "rotulo": {
+      "type": "string"
+    }
+  }
+}

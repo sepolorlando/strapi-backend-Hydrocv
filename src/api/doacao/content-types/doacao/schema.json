@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doacoes",
+  "info": {
+    "singularName": "doacao",
+    "pluralName": "doacoes",
+    "displayName": "Doação",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projetoDoacao": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::projeto-doacao.projeto-doacao"
+    },
+    "nomeDoador": {
+      "type": "string"
+    },
+    "emailDoador": {
+      "type": "email"
+    },
+    "mensagem": {
+      "type": "text"
+    },
+    "valor": {
+      "type": "decimal",
+      "required": true
+    },
+    "moeda": {
+      "type": "string",
+      "default": "CVE"
+    },
+    "stripePaymentIntentId": {
+      "type": "string",
+      "unique": true
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": ["pendente", "sucesso", "falhou"],
+      "default": "pendente"
+    }
+  }
+}

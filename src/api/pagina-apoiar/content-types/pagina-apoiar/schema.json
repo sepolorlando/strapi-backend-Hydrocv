@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_apoiares",
+  "info": {
+    "singularName": "pagina-apoiar",
+    "pluralName": "pagina-apoiares",
+    "displayName": "Página Apoiar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.hero"
+    },
+    "sobrancelha": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "valoresPredefinidos": {
+      "type": "json"
+    },
+    "moeda": {
+      "type": "string",
+      "default": "CVE"
+    },
+    "notaSeguranca": {
+      "type": "text"
+    }
+  }
+}
+

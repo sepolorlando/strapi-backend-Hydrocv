@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_projetos",
+  "info": {
+    "singularName": "pagina-projetos",
+    "pluralName": "paginas-projetos",
+    "displayName": "Página Projetos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.hero"
+    },
+    "tituloIntro": {
+      "type": "string"
+    },
+    "descricaoIntro": {
+      "type": "text"
+    },
+    "estatisticas": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.estatistica"
+    }
+  }
+}
+

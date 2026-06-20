@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_bloco_imagems",
+  "info": {
+    "name": "BlocoImagem",
+    "icon": "picture",
+    "displayName": "Bloco de Imagem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "alt": {
+      "type": "string"
+    },
+    "legenda": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

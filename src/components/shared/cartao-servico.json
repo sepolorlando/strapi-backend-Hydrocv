@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_shared_cartao_servicos",
+  "info": {
+    "name": "CartaoServico",
+    "icon": "layer",
+    "displayName": "Cartão de Serviço",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "icone": {
+      "type": "enumeration",
+      "enum": [
+        "sprout",
+        "leaf",
+        "apple",
+        "check",
+        "users",
+        "award",
+        "headphones",
+        "shield",
+        "wrench",
+        "credit-card",
+        "settings",
+        "message",
+        "tag",
+        "help",
+        "flask",
+        "heart"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.botao-acao"
+    }
+  }
+}

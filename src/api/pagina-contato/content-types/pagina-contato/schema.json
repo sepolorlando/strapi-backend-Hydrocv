@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_contatos",
+  "info": {
+    "singularName": "pagina-contato",
+    "pluralName": "pagina-contatos",
+    "displayName": "Página Contato",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.hero"
+    },
+    "sobrancelhaFormulario": {
+      "type": "string"
+    },
+    "tituloFormulario": {
+      "type": "string"
+    },
+    "descricaoFormulario": {
+      "type": "text"
+    },
+    "infosContacto": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.info-contacto"
+    },
+    "urlMapa": {
+      "type": "string"
+    },
+    "bannerImagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "bannerTitulo": {
+      "type": "string"
+    },
+    "bannerDescricao": {
+      "type": "text"
+    },
+    "tituloRedes": {
+      "type": "string"
+    }
+  }
+}
+

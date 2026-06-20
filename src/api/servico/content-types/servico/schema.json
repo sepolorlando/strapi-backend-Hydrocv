@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicos",
+  "info": {
+    "singularName": "servico",
+    "pluralName": "servicos",
+    "displayName": "Serviço",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titulo",
+      "required": true
+    },
+    "descricaoCurta": {
+      "type": "text"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "icone": {
+      "type": "enumeration",
+      "enum": [
+        "sprout",
+        "leaf",
+        "apple",
+        "check",
+        "users",
+        "award",
+        "headphones",
+        "shield",
+        "wrench",
+        "credit-card",
+        "settings",
+        "message",
+        "tag",
+        "help",
+        "flask",
+        "heart"
+      ]
+    },
+    "ordem": {
+      "type": "integer",
+      "default": 0
+    },
+    "destaque": {
+      "type": "boolean",
+      "default": false
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    }
+  }
+}

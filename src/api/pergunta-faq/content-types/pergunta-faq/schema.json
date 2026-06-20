@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "perguntas_faq",
+  "info": {
+    "singularName": "pergunta-faq",
+    "pluralName": "perguntas-faq",
+    "displayName": "Pergunta FAQ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pergunta": {
+      "type": "string",
+      "required": true
+    },
+    "resposta": {
+      "type": "richtext"
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categoria-faq.categoria-faq"
+    },
+    "popular": {
+      "type": "boolean",
+      "default": false
+    },
+    "ordem": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

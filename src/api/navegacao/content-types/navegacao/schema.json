@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "navegacoes",
+  "info": {
+    "singularName": "navegacao",
+    "pluralName": "navegacoes",
+    "displayName": "Navegação",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "itens": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.link-menu"
+    },
+    "botaoApoiar": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.botao-acao"
+    }
+  }
+}
+

@@ -1,0 +1,86 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_inicios",
+  "info": {
+    "singularName": "pagina-inicio",
+    "pluralName": "pagina-inicios",
+    "displayName": "Página Início",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.hero"
+    },
+    "ctaPrimario": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.botao-acao"
+    },
+    "ctaSecundario": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.botao-acao"
+    },
+    "tiraCaracteristicas": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.caracteristica"
+    },
+    "seccaoSobre": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.seccao-sobre"
+    },
+    "cartoesServico": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.cartao-servico"
+    },
+    "bannerMeio": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.banner"
+    },
+    "grelhaServicos": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.cartao-servico"
+    },
+    "estatisticas": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.estatistica"
+    },
+    "seccaoPorque": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "paginas.seccao-porque"
+    },
+    "tituloEquipa": {
+      "type": "string"
+    }
+  }
+}
+

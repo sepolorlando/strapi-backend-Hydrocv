@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_paginas_seccao_porques",
+  "info": {
+    "displayName": "Secção Porquê",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "sobrancelha": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "caracteristicas": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.caracteristica"
+    }
+  }
+}
+

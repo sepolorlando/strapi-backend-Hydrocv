@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_paginas_introducoes",
+  "info": {
+    "displayName": "Introdução",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "sobrancelha": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "anos": {
+      "type": "integer"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.botao-acao"
+    }
+  }
+}
+

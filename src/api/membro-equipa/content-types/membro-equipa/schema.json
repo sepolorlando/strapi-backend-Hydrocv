@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "membros_equipa",
+  "info": {
+    "singularName": "membro-equipa",
+    "pluralName": "membros-equipa",
+    "displayName": "Membro da Equipa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "bio": {
+      "type": "text"
+    },
+    "redesSociais": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.rede-social"
+    },
+    "ordem": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

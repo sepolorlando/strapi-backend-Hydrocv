@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_paginas_seccao_sobres",
+  "info": {
+    "displayName": "Secção Sobre",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "sobrancelha": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "anosExperiencia": {
+      "type": "integer"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.botao-acao"
+    }
+  }
+}
+

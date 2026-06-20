@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_paginas_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "shared.botao-acao"
+    }
+  }
+}
+

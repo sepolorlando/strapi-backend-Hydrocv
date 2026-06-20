@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscritores_newsletter",
+  "info": {
+    "singularName": "subscritor-newsletter",
+    "pluralName": "subscritores-newsletter",
+    "displayName": "Subscritor Newsletter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    }
+  }
+}
